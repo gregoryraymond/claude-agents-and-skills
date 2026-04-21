@@ -1,5 +1,5 @@
 ---
-name: polygon-offset
+name: geometry-polygon-offset
 description: Comprehensive reference for polygon offset/buffer operations used in terrain and coastline geometry — covers inward/outward offsetting algorithms, straight skeletons, join types, Clipper library usage, and application to beach zones, borders, and cliff walls.
 user-invocable: false
 ---

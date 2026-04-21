@@ -1,5 +1,5 @@
 ---
-name: mesh-extrusion
+name: geometry-mesh-extrusion
 description: Reference for mesh extrusion techniques used in terrain cliff walls and vertical geometry generation. Covers boundary edge detection, vertical quad strip extrusion, skirt generation for LOD crack prevention, normal and UV calculation for extruded faces, degenerate quad handling, XZ-only smoothing, corner filling, and cull mode considerations. Apply when modifying cliff wall generation, terrain skirts, or any boundary extrusion code in gen_cliff_glb.rs.
 user-invocable: false
 ---

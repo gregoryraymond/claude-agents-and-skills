@@ -1,5 +1,5 @@
 ---
-name: mesh-stitching-normals
+name: geometry-mesh-stitching-normals
 description: Reference for mesh stitching, seam prevention, normal recalculation, and LOD transitions in chunked terrain rendering. Covers vertex welding, skirts, geomorphing, weighted normals, octahedral encoding, and CSG operations.
 user-invocable: false
 ---

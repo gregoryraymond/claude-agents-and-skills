@@ -1,5 +1,5 @@
 ---
-name: mesh-fundamentals
+name: geometry-mesh-fundamentals
 description: Reference for 3D mesh fundamentals relevant to terrain and game geometry generation. Covers vertex/index buffers, triangle winding, grid-based meshes, boundary detection, mixed cells, degenerate geometry, vertex color encoding, and common pitfalls. Apply when working on mesh generation, terrain geometry, or debugging visual artifacts.
 user-invocable: true
 allowed-tools: Read, Grep, Bash

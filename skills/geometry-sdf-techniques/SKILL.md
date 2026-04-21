@@ -1,5 +1,5 @@
 ---
-name: sdf-techniques
+name: geometry-sdf-techniques
 description: Signed Distance Field (SDF) techniques for terrain coastline smoothing, anti-aliased boundary rendering, distance field generation, and smooth boolean operations. Reference for replacing hard polygon edges with smooth distance-field blending in shaders and mesh generation.
 user-invocable: false
 ---

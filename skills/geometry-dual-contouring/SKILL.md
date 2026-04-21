@@ -1,5 +1,5 @@
 ---
-name: dual-contouring
+name: geometry-dual-contouring
 description: Comprehensive reference for Dual Contouring algorithm — terrain mesh generation with sharp cliff edges, QEF vertex placement, octree LOD, and Rust implementation considerations.
 user-invocable: false
 ---

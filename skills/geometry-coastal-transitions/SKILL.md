@@ -1,5 +1,5 @@
 ---
-name: coastal-transition-rules
+name: geometry-coastal-transitions
 description: Reference for the coastal terrain transition pipeline — beach BFS, taper, island protection, cliff generation, and triangle emission in gen_cliff_glb.rs. Invoke before modifying any beach/cliff/coastline mesh generation code.
 globs:
   - crates/europe-zone-control/src/bin/gen_cliff_glb.rs

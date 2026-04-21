@@ -1,5 +1,5 @@
 ---
-name: marching-cubes-isosurface
+name: geometry-marching-cubes
 description: Comprehensive reference for the Marching Cubes algorithm and its variants (TransVoxel, Dual Contouring) for terrain/coastline mesh generation. Covers the 256-case lookup table, implementation in Rust, application to heightmap-based terrain, advantages and limitations, and how it could replace grid-based coastline geometry to eliminate staircase artifacts.
 user-invocable: false
 ---

@@ -1,5 +1,5 @@
 ---
-name: vertex-color-shader-contract
+name: geometry-vertex-color-shader
 description: >
   Documents the vertex color RGBA encoding contract between gen_cliff_glb.rs (CPU mesh generator)
   and terrain_material.wgsl (GPU shader). Vertex colors encode surface type metadata, NOT visual

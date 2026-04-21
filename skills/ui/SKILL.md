@@ -1,13 +1,13 @@
 ---
 name: ui
-description: Guide for building and modifying game UI in Bevy. Covers the AAA grand strategy visual language, design tokens, component patterns, spawn helpers, and code conventions. Apply when creating, restyling, or debugging any UI element — menus, HUD, panels, buttons, overlays.
+description: Guide for building and modifying game UI in Bevy. Covers the project's grand strategy visual language, design tokens, component patterns, spawn helpers, and code conventions. Apply when creating, restyling, or debugging any UI element — menus, HUD, panels, buttons, overlays.
 user-invocable: true
 allowed-tools: Read, Grep, Bash, Edit, Write, Agent, Glob
 ---
 
 # UI Style Guide — Kingdoms of Europe
 
-All UI work (Penpot designs and Bevy code) must follow this guide. The game uses an AAA grand strategy visual language inspired by Civ VI, CK3, EU4, Total War, and AoE IV.
+All UI work (Penpot designs and Bevy code) must follow this guide. The game uses a medieval-European historical visual language built around dark atmospheric layering, warm cream text, sparing gold accents, and Cinzel typography.
 
 The canonical style reference is `STYLE_GUIDE.md` at the repo root. This skill summarizes the key rules, tokens, and code patterns for implementation.
 

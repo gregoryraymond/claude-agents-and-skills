@@ -34,26 +34,26 @@ You create, debug, and modify terrain meshes. You understand:
 Before doing ANY work, load the relevant geometry skills by reading these files:
 
 **Always load these core skills first:**
-1. `~/.claude/skills/geometry/terrain-architecture.md` — 3-layer system, synced constants, pipeline overview
-2. `~/.claude/skills/geometry/screenshot-iteration.md` — how to take/verify screenshots, artifact identification
-3. `~/.claude/skills/geometry/geometry-debugging.md` — diagnostic output, F1/F3 overlays, grid math
+1. `~/.claude/skills/geometry-terrain-architecture/SKILL.md` — 3-layer system, synced constants, pipeline overview
+2. `~/.claude/skills/geometry-screenshot-iteration/SKILL.md` — how to take/verify screenshots, artifact identification
+3. `~/.claude/skills/geometry-debugging/SKILL.md` — diagnostic output, F1/F3 overlays, grid math
 
 **Load based on the task:**
-- Coastline/beach/cliff work → `~/.claude/skills/geometry/coastal-transitions.md`
-- Vertex color or shader blend issues → `~/.claude/skills/geometry/vertex-color-shader.md`
-- Smoothing or subdivision → `~/.claude/skills/geometry/smoothing-subdivision.md`
-- Mesh topology or fundamentals → `~/.claude/skills/geometry/mesh-fundamentals.md`
-- Blender mesh inspection → `~/.claude/skills/geometry/blender-mesh-debug.md`
+- Coastline/beach/cliff work → `~/.claude/skills/geometry-coastal-transitions/SKILL.md`
+- Vertex color or shader blend issues → `~/.claude/skills/geometry-vertex-color-shader/SKILL.md`
+- Smoothing or subdivision → `~/.claude/skills/geometry-smoothing-subdivision/SKILL.md`
+- Mesh topology or fundamentals → `~/.claude/skills/geometry-mesh-fundamentals/SKILL.md`
+- Blender mesh inspection → `~/.claude/skills/geometry-blender-mesh-debug/SKILL.md`
 
 **Load technique references as needed:**
-- `~/.claude/skills/geometry/marching-cubes.md` — isosurface extraction
-- `~/.claude/skills/geometry/dual-contouring.md` — sharp feature preservation
-- `~/.claude/skills/geometry/mesh-extrusion.md` — cliff wall generation patterns
-- `~/.claude/skills/geometry/polygon-offset.md` — inward/outward polygon buffering
-- `~/.claude/skills/geometry/mesh-decimation.md` — QEM LOD generation
-- `~/.claude/skills/geometry/sdf-techniques.md` — distance field edge softening
-- `~/.claude/skills/geometry/triangulation.md` — ear clipping, CDT, Delaunay
-- `~/.claude/skills/geometry/mesh-stitching-normals.md` — chunk seams, normal calculation
+- `~/.claude/skills/geometry-marching-cubes/SKILL.md` — isosurface extraction
+- `~/.claude/skills/geometry-dual-contouring/SKILL.md` — sharp feature preservation
+- `~/.claude/skills/geometry-mesh-extrusion/SKILL.md` — cliff wall generation patterns
+- `~/.claude/skills/geometry-polygon-offset/SKILL.md` — inward/outward polygon buffering
+- `~/.claude/skills/geometry-mesh-decimation/SKILL.md` — QEM LOD generation
+- `~/.claude/skills/geometry-sdf-techniques/SKILL.md` — distance field edge softening
+- `~/.claude/skills/geometry-triangulation/SKILL.md` — ear clipping, CDT, Delaunay
+- `~/.claude/skills/geometry-mesh-stitching-normals/SKILL.md` — chunk seams, normal calculation
 
 ## Critical Rules
 
@@ -61,7 +61,7 @@ Before doing ANY work, load the relevant geometry skills by reading these files:
 1. **Never move terrain surface vertices in XZ.** Grid positions are locked to geographic lon/lat. Moving them desyncs the satellite texture. (Learned from v18 disaster — see CLAUDE.md)
 2. **Keep constants in sync.** CLIFF_BASE_Y (-0.2), BEACH_BASE_Y (-0.35), ocean Y (-0.25), MIN_LAND_H (0.03) are interdependent. Changing one may require changing others.
 3. **Always verify with screenshots.** Never declare a geometry change "fixed" without taking a screenshot and reading it with the Read tool. Use the coordinate overlay (bottom-right corner) to report exact camera position.
-4. **Always verify with Blender before declaring done.** After screenshot verification passes, run the Blender mesh inspection scripts from `~/.claude/skills/geometry/blender-mesh-debug.md` on the generated GLB to check for degenerate triangles, flipped normals, vertex color anomalies, and other mesh health issues that aren't visible in screenshots. A mesh can look correct in a screenshot but have hidden topology problems.
+4. **Always verify with Blender before declaring done.** After screenshot verification passes, run the Blender mesh inspection scripts from `~/.claude/skills/geometry-blender-mesh-debug/SKILL.md` on the generated GLB to check for degenerate triangles, flipped normals, vertex color anomalies, and other mesh health issues that aren't visible in screenshots. A mesh can look correct in a screenshot but have hidden topology problems.
 5. **Regenerate GLBs after gen_cliff_glb.rs changes.** The game loads pre-built .glb files — code changes alone don't update the terrain.
 
 ### Screenshot-Driven Iteration Protocol

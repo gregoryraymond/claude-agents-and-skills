@@ -1,5 +1,5 @@
 ---
-name: triangulation
+name: geometry-triangulation
 description: Reference for polygon triangulation algorithms used in terrain and country polygon mesh generation, covering ear clipping, Delaunay, CDT, quality metrics, subdivision strategies, and Rust crate selection.
 user-invocable: false
 ---

@@ -1,5 +1,5 @@
 ---
-name: terrain-architecture
+name: geometry-terrain-architecture
 description: Terrain rendering architecture reference for the Europe Zone Control game. Covers the 3-layer mesh system, GLB generation pipeline, chunk splitting, LOD system, territory overlay, render ordering, and critical constants that must stay in sync.
 user-invocable: true
 allowed-tools: Read, Grep, Bash

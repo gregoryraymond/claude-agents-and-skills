@@ -1,5 +1,5 @@
 ---
-name: blender-mesh-debug
+name: geometry-blender-mesh-debug
 description: Guide for debugging terrain and coastline GLB meshes using Blender's Python API in headless mode. Covers vertex color inspection, UV analysis, degenerate triangle detection, mesh health reports, and visual debugging techniques.
 user-invocable: true
 allowed-tools: Read, Grep, Bash, Edit, Write, Glob

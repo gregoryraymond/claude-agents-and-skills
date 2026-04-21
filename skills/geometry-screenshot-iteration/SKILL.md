@@ -1,5 +1,5 @@
 ---
-name: screenshot-driven-iteration
+name: geometry-screenshot-iteration
 description: Visual debugging protocol for terrain, coastline, cliff, and beach rendering. Covers screenshot capture with camera positioning, artifact identification, GLB regeneration, and the full change-compile-screenshot-assess iteration loop.
 user-invocable: true
 allowed-tools: Read, Grep, Bash, Edit, Write, Glob

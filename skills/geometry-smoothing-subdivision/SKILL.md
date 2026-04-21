@@ -1,5 +1,5 @@
 ---
-name: smoothing-and-subdivision
+name: geometry-smoothing-subdivision
 description: Guide for Laplacian mesh smoothing and center-fan subdivision used in terrain/cliff/beach geometry generation. Covers pass counts, XZ constraints, scalar field smoothing, cliff vertex smoothing, T-junction prevention, and alternative approaches.
 user-invocable: true
 allowed-tools: Read, Grep, Bash

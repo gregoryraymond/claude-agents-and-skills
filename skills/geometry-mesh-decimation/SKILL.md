@@ -1,5 +1,5 @@
 ---
-name: mesh-decimation
+name: geometry-mesh-decimation
 description: Quadric Error Metrics (QEM) mesh simplification for terrain LOD generation. Covers the Garland-Heckbert algorithm, edge collapse operations, priority queues, boundary preservation for coastlines, adaptive detail, progressive meshes, and Rust implementation guidance.
 user-invocable: false
 ---
